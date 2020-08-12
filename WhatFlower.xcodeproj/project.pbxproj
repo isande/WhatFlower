@@ -13,6 +13,7 @@
 		F4C2D09824E467AF00F775C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C2D09624E467AF00F775C8 /* Main.storyboard */; };
 		F4C2D09A24E467B100F775C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C2D09924E467B100F775C8 /* Assets.xcassets */; };
 		F4C2D09D24E467B100F775C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C2D09B24E467B100F775C8 /* LaunchScreen.storyboard */; };
+		F4C2D0A524E468C300F775C8 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F4C2D0A424E468C300F775C8 /* FlowerClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F4C2D09924E467B100F775C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C2D09C24E467B100F775C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C2D09E24E467B100F775C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C2D0A424E468C300F775C8 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F4C2D09624E467AF00F775C8 /* Main.storyboard */,
 				F4C2D09924E467B100F775C8 /* Assets.xcassets */,
 				F4C2D09B24E467B100F775C8 /* LaunchScreen.storyboard */,
+				F4C2D0A424E468C300F775C8 /* FlowerClassifier.mlmodel */,
 				F4C2D09E24E467B100F775C8 /* Info.plist */,
 			);
 			path = WhatFlower;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C2D0A524E468C300F775C8 /* FlowerClassifier.mlmodel in Sources */,
 				F4C2D09524E467AF00F775C8 /* ViewController.swift in Sources */,
 				F4C2D09124E467AF00F775C8 /* AppDelegate.swift in Sources */,
 				F4C2D09324E467AF00F775C8 /* SceneDelegate.swift in Sources */,
